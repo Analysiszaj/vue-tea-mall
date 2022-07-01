@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@font-face {
+  font-family: lizi;
+  src: url(../fonts/font.eot);
+  src: url(../fonts/font.svg#iconfont) format('svg'), url(../fonts/font.woff) format('woff'), url(../fonts/font.ttf) format('truetype');
+}
+.iconfont {
+  font-family: lizi;
+  font-size: 100%;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
