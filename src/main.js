@@ -5,7 +5,9 @@ import store from './store'
 
 import '@/assets/css/common.css'
 import '@/assets/js/lib-flexible-2.0/index'
+import Lytab from 'ly-tab'
 
+Vue.use(Lytab)
 Vue.config.productionTip = false
 
 new Vue({

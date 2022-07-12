@@ -52,7 +52,7 @@ export default {
   padding-left: 0.8rem;
   border: 0;
   background-color: white;
-  background: url('../../assets/images/search.png') 12px center no-repeat #fff;
+  background: url('../../../assets/images/search.png') 12px center no-repeat #fff;
   background-size: 0.2667rem;
 }
 .header .search input {
