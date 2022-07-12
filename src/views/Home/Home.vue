@@ -14,8 +14,8 @@
 </template>
 
 <script>
-import Tabbar from '../components/common/Tabbar.vue'
-import Header from '../components/home/Header.vue'
+import Tabbar from '../../components/common/Tabbar.vue'
+import Header from './components/Header.vue'
 export default {
   name: 'home',
   components: { Tabbar, Header },

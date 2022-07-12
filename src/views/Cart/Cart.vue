@@ -1,15 +1,15 @@
 <template>
-  <div class="我的">
-    这是我的
+  <div class="购物车">
+    这是购物车
     <Tabbar></Tabbar>
   </div>
 </template>
 
 <script>
-import Tabbar from '../components/common/Tabbar.vue'
+import Tabbar from '../../components/common/Tabbar.vue'
 export default {
-  name: 'My',
   components: { Tabbar },
+  name: 'Cart',
   data() {
     return {}
   },
