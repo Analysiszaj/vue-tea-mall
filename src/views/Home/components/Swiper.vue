@@ -1,9 +1,9 @@
 <template>
   <div class="swiper">
     <swiper :options="swiperOption">
-      <swiper-slide>Slide 1</swiper-slide>
-      <swiper-slide>Slide 2</swiper-slide>
-      <swiper-slide>Slide 3</swiper-slide>
+      <swiper-slide v-for="(item, index) in swiperList" :key="index">
+        <img :src="item.imgurl" alt="" />
+      </swiper-slide>
     </swiper>
     <div class="swiper-scrollbar"></div>
   </div>
@@ -26,15 +26,15 @@ export default {
       swiperList: [
         {
           id: 1,
-          imgUrl: './images/swiper1.jpeg',
+          imgUrl: './public/images/swipe1.jpeg',
         },
         {
           id: 2,
-          imgUrl: './images/swiper2.jpeg',
+          imgUrl: './public/images/swipe1.jpeg',
         },
         {
           id: 3,
-          imgUrl: './images/swiper3.jpeg',
+          imgUrl: './public/images/swipe1.jpeg',
         },
       ],
     }
